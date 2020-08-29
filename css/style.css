@@ -1,0 +1,261 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: arial;
+		color: #6a3144;
+}
+header{
+	background-color: #a88c95;
+}
+header .header-container{
+	padding: 15px 200px;
+	
+	display: flex;
+	justify-content: space-between;
+}
+.header-container .social{
+	width: 67%;
+	text-align:left; 
+}
+.header-container .social ul li{
+	display: inline-block;
+}
+.header-container .social ul li a{
+	color: #6a3144;
+	background-color: #fff;
+	height: 35px;
+	width: 35px;
+	display: block;line-height: 35px;
+	border-radius: 50%;
+	margin-right: 10px;
+	text-align: center;
+}
+.header-container .social ul li a:hover{
+		color: #fff;
+	background-color: #6a3144;;
+	transition: .3s;
+}
+.search{
+	text-align: right;
+	width: 40%;
+
+}
+.search form{
+		position:
+	
+}
+.search form input{
+	width: 220px;
+	padding: 08px;
+	border: none;
+		
+}
+.search form input::placeholder{
+	padding: 10px 0px 10px 10px;
+	text-transform: capitalize;
+}
+.search form input:focus{
+	outline: none;
+}
+.search form button{
+	text-transform: uppercase;
+	border: none;
+	padding: 08px;
+	cursor: pointer;
+		color: #fff;
+	background-color: #6a3144;
+	    margin-left: -5px;
+}
+.sec1{
+	background-image: url(../image/WebSite.png);
+	background-repeat: no-repeat;
+	width: 210px;
+	min-height: 50px;
+	text-align: center;
+	margin: 25px auto;
+}
+.sec2{
+	background-color: #97455f;
+}
+.sec2 .sec2-container{
+	display: flex;justify-content: space-between;
+	padding: 0px 250px;
+	margin: 0 auto;
+}
+.sec2 .sec2-container a{
+	color:#fff;
+	text-decoration: none;
+	padding: 25px;
+}
+.sec2 .sec2-container a:hover{
+	transition: .5s;
+	background-color: #6a3144;
+}
+.sec3{
+	
+	}
+.sec3-container{
+	background-image: url(../image/bg.png);
+	height: 670px;
+
+	background-size: cover;
+}
+.sec4{
+	margin: 20px 0px;
+}
+.sec4 .sec4-container{
+	padding: 0px 200px;
+	display: flex;
+	justify-content: space-between;
+}
+.sec4 .sec4-container .content1,.content2{
+	width: 48%;
+}
+ .item{
+ 	width: 100%;
+ }
+.sec4 .sec4-container .content1 .item h1{
+	font-size: 30px;
+}
+.sec4 .sec4-container .content1 .item p{
+	font-size: 15px;
+	line-height: 20px;
+	margin: 15px 0px;
+}
+.sec4 .sec4-container .content1 button{
+	background-color: #6a3144;
+	padding: 15px 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+.search form button:focus,.sec4 .sec4-container .content1 button:focus{
+	outline: none;
+}
+ .search form button:hover,.sec4 .sec4-container .content1 button:hover{
+ 	color:#fff;
+	background-color:#97455f; 
+	transition: .3s;
+ }
+.content2 .thumbnill img{
+	width: 100%;
+}
+.sec5{
+	background-color: #f5f5f5;
+}
+.sec5-content{
+	padding: 30px 200px;
+	text-align: center;
+		color:#6a3144;
+}
+.sec5-content p{
+	padding: 20px 0px;
+}
+.sec5-content .sec5-wraper{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.sec5-content .sec5-wraper .box{
+	width: 30%;
+
+		padding: 10px;
+}
+.sec5-content .sec5-wraper .box:hover{
+	background-color: #fff;
+	box-shadow: 0px 0px 25px 0px grey;
+	cursor: pointer;
+}
+.sec5-wraper .box .box-item{
+	text-align: left;
+	margin: 20px 0px;
+	position: relative;
+
+	z-index: 1;
+}
+.sec5-wraper .box .box-item .num{
+
+	font-size: 75px;
+	color:#e4e2e0;
+	font-weight: 900;
+	z-index: -1;
+	    
+}
+
+.sec5-wraper .box .box-item h3{
+	padding-left: 10px;
+	font-size: 20px;
+	margin-bottom: 30px;
+	position: absolute;
+    transform: translate(35px,-40px);
+}
+.sec5-wraper .box .box-item p{
+	font-size: 15px;
+	line-height: 20px;
+	padding-left: 20px;
+	margin-top: 30px;
+}
+.sec6{
+	background-image: url(../image/2.jpg);
+	min-height: 545px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.sec6 .contact{
+	padding: 20px 250px;
+	text-align: center;
+}
+.sec6 .contact h1{
+	padding: 50px 0;
+	color:#fff;
+}
+.contact-form form{
+	display: flex;
+	justify-content: space-between;
+}
+.contact-form form input,textarea{
+	width: 47%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: none;
+}
+.contact-form form input::placeholder, textarea::placeholder{
+	padding: 10px;}
+textarea{
+	width: 100%;
+	padding: 0px;
+}
+.contact-form form input:focus, textarea:focus,.contact-form button{
+	outline: none;
+}
+.contact-form button{
+	padding: 20px 35px;
+	border-radius: 30px;
+	border: none;
+	background-color: #97455f;
+	color: #fff;
+	cursor: pointer;
+}
+.contact-form button:hover{
+	background-color: #6a3144;
+}
+.foot{
+	padding: 20px 200px;
+	text-align: center;
+}
+.foot .logo-2{
+	background-image: url(../image/2WebSite.png);
+	height: 295px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
